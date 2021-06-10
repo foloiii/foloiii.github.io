@@ -73,6 +73,11 @@ hr {
   height: 0;
   overflow: visible; }
 
+.txtwhite{
+  margin-bottom: 1.5rem !important;
+  color: white !important;
+}
+
 .titou {
   font-family: "police-titre" !important;
   background-color: #4A2040;
@@ -8427,7 +8432,6 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
-      background: url(../images/aside.png) no-repeat right top #000 !important;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -8462,7 +8466,7 @@ h1, h2, h3, h4, h5,
       background-repeat: no-repeat;
       background-position: center center; }
   #colorlib-aside #colorlib-main-menu ul {
-    margin: 0;
+    margin-top: 30px;
     padding: 0; }
     #colorlib-aside #colorlib-main-menu ul li {
       margin: 0 0 10px 0;
@@ -8741,7 +8745,7 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #4A2040;
     border: 1px solid #4A2040;
-    color: #000000; }
+    color: #ffffff; }
     .btn.btn-primary:hover {
       border: 1px solid #4A2040;
       background: transparent;
@@ -8964,9 +8968,9 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: 3px;
-      color: #4A2040;
+      color: white;
       font-weight: 700;
-      border: 1px solid #4A2040;
+      border: 1px solid white;
       padding: 2px 5px; }
 
 .form-control {
@@ -9103,12 +9107,12 @@ textarea.form-control {
   .contact-wrap .heading {
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff; }
+    color: #4a2040; }
 
 .info-wrap {
   color: rgba(0, 0, 0, 0.8); }
   .info-wrap h3 {
-    color: #000000; }
+    color: #ffffff; }
   .info-wrap .dbox {
     width: 100%;
     color: rgba(0, 0, 0, 0.8);
@@ -9116,17 +9120,18 @@ textarea.form-control {
     .info-wrap .dbox:last-child {
       margin-bottom: 0; }
     .info-wrap .dbox p {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      color:white; }
       .info-wrap .dbox p span {
         font-weight: 500;
-        color: #000000; }
+        color: #ffffff; }
       .info-wrap .dbox p a {
-        color: #000000; }
+        color: #ffffff; }
     .info-wrap .dbox .icon {
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      border: 1px solid rgba(0, 0, 0, 0.1); }
+      border: 1px solid rgba(255, 255, 255, 0.1); }
       .info-wrap .dbox .icon span {
         font-size: 20px;
         color: #000000; }
@@ -9134,7 +9139,7 @@ textarea.form-control {
       width: calc(100% - 50px); }
 
 .contactForm .label {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(74 32 64 / 67%);
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600; }
@@ -9142,7 +9147,7 @@ textarea.form-control {
 .contactForm .form-control {
   border: none;
   background: transparent !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-bottom: 1px solid rgb(127 82 139 / 44%) !important;
   padding: 0;
   color: rgba(255, 255, 255, 0.7) !important;
   font-size: 14px;
