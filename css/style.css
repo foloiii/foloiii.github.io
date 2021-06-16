@@ -80,7 +80,8 @@ hr {
 
 .titou {
   font-family: "police-titre" !important;
-  background-color: #4A2040;
+  background-color: #E59560 !important;
+  color: #E59560 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8428,7 +8429,8 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-aside {
-      width: 25%; } }
+      width: 25%;
+      background-color: #BACEC1; } }
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
@@ -8545,7 +8547,8 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: rgba(255, 255, 255, 0.7); }
     #colorlib-aside .colorlib-footer .pfooter {
-      font-size: 14px; }
+      font-size: 8px;
+      color: #1D3124 !important; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
@@ -8973,6 +8976,11 @@ h1, h2, h3, h4, h5,
       border: 1px solid white;
       padding: 2px 5px; }
 
+.titlelikeprice {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff; }
+
 .form-control {
   height: 52px !important;
   border-radius: 0px;
@@ -9073,7 +9081,7 @@ textarea.form-control {
   background: #f8f9fa !important; }
 
 .bg-primary {
-  background: #4A2040 !important; }
+  background: #1D3124  !important; }
 
 .image-popup {
   cursor: -webkit-zoom-in;
