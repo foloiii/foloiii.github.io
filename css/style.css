@@ -9160,7 +9160,7 @@ textarea.form-control {
   background: transparent !important;
   border-bottom: 1px solid rgb(0 0 0 / 20%) !important;
   padding: 0;
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: black !important;
   font-size: 14px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
